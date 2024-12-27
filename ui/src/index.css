@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+#root {
+  height: 100vh;
+}
+
+p {
+  font-family: "Work Sans", sans-serif !important;
+}
+  
+.heading {
+  margin: 35px;
+  display: flex;
+  justify-content: center;
+}
+  
+.heading-sub {
+  margin-bottom: 30px;
+  margin-top: -15px;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-text-secondary {
+  font-weight: bolder;
+  color: gray;
+  font-family: inherit;
+}
+
+.custom-container {
+  margin: 100px;
+}
+
+.button-group-login-signup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  font-weight: bolder !important;
+  text-transform: uppercase;
+  height: 3.1rem;
+}
+
+.form-control {
+  padding: 10px !important;
+}
+
+.form-select:focus,.form-control:focus {
+  border-color: #000000 !important;
+  box-shadow: 0 0 0 0.2rem rgba(25, 26, 25, 0.25) !important;
+} 
+
+.field-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-check-input:checked {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+.custom-card {
+  margin: 10px;
+  padding: 10px;
+  min-width: 20rem;
+  border: none !important;
+  box-shadow: 0 15px 15px 0 rgba(126, 125, 125, 0.2) !important;
+  transition: 250ms ease-in-out, box-shadow 300ms ease-in-out !important;
+}
+
+.custom-card:hover {
+  background-color: #f0f6f7cc !important;
+  box-shadow: 0 5px 5px 0 rgba(133,133,133,0.25) !important;
+}
+
+
+

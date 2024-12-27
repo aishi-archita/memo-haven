@@ -1,0 +1,25 @@
+.badge-button {
+    cursor: pointer;
+    margin: 5px;
+}
+
+.delete {
+    margin-left: .8rem;
+}
+
+.limited-text {
+    overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+           line-clamp: 1; 
+   -webkit-box-orient: vertical;
+}
+
+.custom-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-date {
+    font-size: small;
+}

@@ -1,0 +1,12 @@
+.remember-me {
+  display: flex !important;
+  justify-content: start;
+}
+  
+.remember-me > label {
+  margin-left: 10px;
+}
+
+.btn-link:hover {
+  background-color: transparent !important;
+}

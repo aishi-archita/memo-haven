@@ -1,0 +1,22 @@
+.home-body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.create {
+    border-radius:50px !important;
+    font-size: large;
+    width:80px;
+	height:80px !important;
+}
+
+.floating-button {
+    position: fixed;
+    bottom:40px;
+	right:40px;
+}
+
+.note-section {
+    padding-top: 30px !important;
+    padding-bottom: 10px !important;
+}

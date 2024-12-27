@@ -1,0 +1,36 @@
+.header-logo {
+    text-decoration: none;
+    color: black;
+}
+
+.header-logo:hover {
+    color: black;
+}
+
+.profile-selector {
+    display: grid;
+    place-items: center;
+}
+
+.profile-name {
+    text-decoration: none !important;
+    color: black;
+}
+
+.profile-button {
+    display: block;
+}
+
+.offcanvas-items {
+    height: 2.2rem;
+    display: flex;
+    justify-items: center;
+    /* margin-left: 2rem; */
+}
+
+.footer {
+    position: absolute;
+    bottom: 7px;
+    left: 20px;
+    width:100%
+}
